@@ -22,11 +22,12 @@ run architype to generate project
 
     mvn archetype:generate -DarchetypeGroupId=za.co.migal -DarchetypeArtifactId=silver-happiness-architype -DarchetypeVersion=1.0-SNAPSHOT -DartifactId=$projectName_ -DgroupId=$projectPackage_
 
-$projectName_ - the name of your project eg. customer
-$projectPackage_ - the package for your project eg. com.sbg.domain
+$projectName_ = the name of your project eg. customer
+$projectPackage_ = the package for your project eg. com.sbg.domain
 
 It will create a project in the following structure
 
+```
 $projectName_
 |-- $projectName_-module
     |-- pom.xml
@@ -66,6 +67,7 @@ $projectName_
                         |-- $projectName_Controller.java
             `-- resources
                 |-- application.properties
+```
 
 #####################################
 #   Health check                    #
@@ -74,13 +76,15 @@ $projectName_
 #####################################
 #   Sonar                           #
 #####################################
+Token
 
-  Token
 silver-happiness
-5c9cef59c2b17c7ff349d3cdf2e75d9c83c47481
 
-  Run
-mvn sonar:sonar \
+    5c9cef59c2b17c7ff349d3cdf2e75d9c83c47481
+
+To Run
+
+    mvn sonar:sonar \
     -Dsonar.host.url=https://sonarqube.com \
     -Dsonar.login=5c9cef59c2b17c7ff349d3cdf2e75d9c83c47481
 
