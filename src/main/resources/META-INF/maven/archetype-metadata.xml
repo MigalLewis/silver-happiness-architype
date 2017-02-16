@@ -3,7 +3,7 @@
                       xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0"
                       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <modules>
-        <module id="${rootArtifactId}-service" dir="__rootArtifactId__-service" name="${rootArtifactId}-service">
+        <module id="silver-happiness-${rootArtifactId}-service" dir="silver-happiness-__rootArtifactId__-service" name="silver-happiness-${rootArtifactId}-service">
             <fileSets>
                 <fileSet filtered="true" packaged="true" encoding="UTF-8">
                     <directory>src/main/java</directory>
@@ -16,7 +16,7 @@
                 </fileSet>
             </fileSets>
         </module>
-        <module id="${moduleName}-module" dir="__rootArtifactId__-module" name="${moduleName}-module">
+        <module id="silver-happiness-${moduleName}-module" dir="silver-happiness-__rootArtifactId__-module" name="silver-happiness-${moduleName}-module">
             <fileSets>
                 <fileSet filtered="true" packaged="true" encoding="UTF-8">
                     <directory>src/main/java</directory>
@@ -32,7 +32,7 @@
                 </fileSet>
             </fileSets>
         </module>
-        <module id="${moduleName}-module-za" dir="__rootArtifactId__-module-za" name="${moduleName}-module-za">
+        <module id="silver-happiness-${moduleName}-module-za" dir="silver-happiness-__rootArtifactId__-module-za" name="silver-happiness-${moduleName}-module-za">
             <fileSets>
                 <fileSet filtered="true" packaged="true" encoding="UTF-8">
                     <directory>src/main/java</directory>
