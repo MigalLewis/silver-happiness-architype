@@ -1,0 +1,5 @@
+/target/
+/nbproject/
+/silver-happiness-${rootArtifactId}-module/target/
+/silver-happiness-${rootArtifactId}-module-za/target/
+/silver-happiness-${rootArtifactId}-service/target/
