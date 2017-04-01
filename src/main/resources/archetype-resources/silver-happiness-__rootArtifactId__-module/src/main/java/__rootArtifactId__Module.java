@@ -15,5 +15,10 @@ public interface ${rootArtifactId}Module{
     public String sayHello();
 
     public void add${rootArtifactId}(${rootArtifactId} model);
+
+    public void remove${rootArtifactId}(long id);
+
+    public ${rootArtifactId} find${rootArtifactId}(long id);
     
+    public ${rootArtifactId} edit${rootArtifactId}(${rootArtifactId} model);
 }
