@@ -8,8 +8,12 @@
  */
 package ${package};
 
+import ${package}.model.${rootArtifactId};
+
 public interface ${rootArtifactId}Module{
 
     public String sayHello();
+
+    public void add${rootArtifactId}(${rootArtifactId} model);
     
 }

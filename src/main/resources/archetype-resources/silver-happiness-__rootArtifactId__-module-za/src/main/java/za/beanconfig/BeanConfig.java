@@ -6,6 +6,7 @@ package ${package}.za.beanconfig;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.context.annotation.*;
+import ${package}.za.mongo.util.${rootArtifactId}Mapper;
 
 
 
@@ -15,4 +16,8 @@ import org.springframework.context.annotation.*;
 public class BeanConfig {
   private static final Logger LOGGER = LoggerFactory.getLogger(BeanConfig.class);
    
+  @Bean
+  public ${rootArtifactId}Mapper mapper(){
+    return new ${rootArtifactId}Mapper();
+  }
 }
